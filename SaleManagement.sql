@@ -72,3 +72,5 @@ create table ChiTietCC(
     foreign key (SoDH) references DonDH(SoDH),
     foreign key (MaNCC) references NhaCC(MaNCC)
 );
+
+alter table ChiTietCC add primary key (SoDH);
